@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'kajio';
+    src: url('./Kajiro Bold.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+  
+}
+.back{
+    width: 100%;
+    height: 100vh;
+
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    /* object-position: top */
+}
+.back{
+    width: 100%;
+    height: 100vh;
+
+}
+.top{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: grey; */
+    pointer-events: none;
+}
+.working{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1900px;
+    position: relative;
+    /* background-color: lightslategrey; */
+}
+nav{
+    width: 100%;
+    /* background-color: firebrick; */
+    padding: 40px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+a{
+    pointer-events: all;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.2px;
+    font-weight: 400;
+}
+nav .nav-1,.nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3vw;
+  
+    /* background-color: red; */
+}
+
+.hero-1{
+    min-width: 50%;
+    /* background-color: tan; */
+    margin-top: 5vw;
+}
+.hero-1 .elm{
+    height: 7vw;
+    /* background-color: red; */
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+}
+.hero-1 .elm h1:nth-child(1){
+    top: 0
+}
+.hero-1 .elm h1{
+    position: absolute;
+    top:100%;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 6.8vw;
+
+}
+.hero-1 button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    background-color: lightgray;
+    color: white;
+    font-size: 2vw;
+    margin-top: 2vw;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hero-2{
+    width: 30%;
+    color: white;
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: center; */
+}
+.hero-2 p{
+    text-align: right;
+    font-size: 15px;
+    font-family: 300;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.hero-2 .box{
+    margin: 0 auto;
+    width: 60%;
+    height: 160px;
+    background-image: url('https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vZGVsfGVufDB8fDB8fHww');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
